@@ -38,4 +38,4 @@ def eliminar_libro(request, id):
         return redirect('listar_libros')
     return render(request, 'eliminar_libro.html', {'libro': libro})
 
-#andres guaman
+#andres
